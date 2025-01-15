@@ -8,5 +8,5 @@ urlpatterns = [
     path('courses/add/', views.add_course, name='add_course'),
     path('courses/update/<int:id>/', views.update_course, name='update_course'),
     path('courses/delete/<int:id>/', views.delete_course, name='delete_course'),
-    path('courses/<int:id>/', views.course_detail, name='course_detail'),  # course_detail URL'si qo'shildi
+    path('courses/<int:id>/', views.course_detail, name='course_detail'), 
 ]
