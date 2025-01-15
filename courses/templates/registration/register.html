@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ro'yxatdan O'tish</title>
+</head>
+<body>
+    <h2>Ro'yxatdan O'tish</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Ro'yxatdan O'tish</button>
+    </form>
+</body>
+</html>
